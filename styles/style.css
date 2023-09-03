@@ -30,14 +30,14 @@ body{
 
 .cabecalho__menu{
     display: flex;
-    gap: 80px;
+    gap: 5rem;
     
 
 }
 
 .cabecalho__menu__link {
     font-family:var(--fontesecundaria);
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 400;
     color: var(--corterciaria);
     text-decoration: none;
@@ -54,7 +54,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 82px;
+    gap: 5.1rem;
 }
 
 .apresentacao__conteudo{
@@ -62,7 +62,7 @@ body{
 
     display: flex;
     flex-direction: column;
-    gap: 40px;
+    gap: 2.5rem;
    
 }
 
@@ -82,7 +82,7 @@ body{
     justify-content: space-between;
     flex-direction: column;
     align-items: center;
-    gap: 30px;
+    gap: 1.87rem;
 }
 
 .apresentacao__links__subtitulo{
@@ -95,15 +95,15 @@ body{
     
     display: flex;
     justify-content: center;
-    gap: 16px;
+    gap: 1rem;
 
     border: 2px solid var(--corterciaria);
     width: 50%;
     text-align: center;
-    border-radius: 8px;
+    border-radius: 0.5rem;
     text-decoration: none;
     font-size: 1.5rem;
-    padding: 21.5px 0 ;
+    padding: 1.34rem 0 ;
     color: var(--corsecundaria);
     font-family: var(--fontesecundaria);
     font-weight: 600;
@@ -120,7 +120,7 @@ body{
 .rodape{
     color: var(--corprincipal) ;
     background-color: var(--corterciaria) ;
-    padding: 24px;
+    padding: 1.5rem;
     text-align: center;
     font-family: "Montserrat", sans-serif;
     font-size: 1.5rem;
@@ -128,7 +128,7 @@ body{
 
 }
 
-@media (max-width: 1200px){
+@media (max-width: 75rem){
 
     .cabecalho{
         padding: 10% ;
